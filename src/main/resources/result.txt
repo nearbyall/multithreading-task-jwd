@@ -238,3 +238,744 @@ Matrix
         98          0         98          0          0 
         99          0          0         99          0 
        100          0          0          0        100 
+Thread 1=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 2, col sum : 1
+Thread 2=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 4, col sum : 2
+Thread 3=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 6, col sum : 3
+Thread 4=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 8, col sum : 9
+Thread 5=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 10, col sum : 6
+Matrix 
+ Dimension 5 
+         1          0          0          0          1 
+         0          2          0          2          0 
+         0          0          3          3          0 
+         0          4          0          4          0 
+         0          0          0          5          5 
+Thread 6=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 13, col sum : 6
+Thread 7=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 16, col sum : 11
+Matrix 
+ Dimension 5 
+         6          0          0          6          1 
+         0          7          7          2          0 
+         0          0          8          3          0 
+         0          4          0          4          0 
+         0          0          0          5          5 
+Thread 1=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 2, col sum : 1
+Thread 2=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 4, col sum : 2
+Thread 3=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 6, col sum : 4
+Thread 4=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 8, col sum : 7
+Thread 5=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 10, col sum : 7
+Matrix 
+ Dimension 5 
+         1          0          1          0          0 
+         0          2          0          0          2 
+         0          0          3          3          0 
+         4          0          0          4          0 
+         0          0          0          5          5 
+Thread 6=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 13, col sum : 10
+Thread 7=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 16, col sum : 7
+Thread 8=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 19, col sum : 9
+Thread 9=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 18, col sum : 17
+Thread 10=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 25, col sum : 26
+Matrix 
+ Dimension 5 
+         6          0          1          0          6 
+         7          7          0          0          2 
+         0          0          8          3          8 
+         9          0          0          9          0 
+         0         10          0          5         10 
+Thread 11=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 28, col sum : 27
+Thread 12=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 33, col sum : 22
+Thread 13=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 37, col sum : 36
+Thread 14=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 28, col sum : 22
+Thread 15=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 45, col sum : 31
+Matrix 
+ Dimension 5 
+        11          0         11          0          6 
+         7         12         12          0          2 
+        13          0         13          3          8 
+        14          0          0         14          0 
+        15         10          0          5         15 
+Thread 16=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 38, col sum : 65
+Thread 17=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 43, col sum : 27
+Thread 18=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 60, col sum : 51
+Thread 19=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 52, col sum : 27
+Thread 20=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 65, col sum : 36
+Matrix 
+ Dimension 5 
+        16          0         16          0          6 
+         7         17         17          0          2 
+        13         18         18          3          8 
+        14          0         19         19          0 
+        15         10          0         20         20 
+Thread 21=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 64, col sum : 70
+Thread 22=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 70, col sum : 50
+Thread 23=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 80, col sum : 75
+Thread 24=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 81, col sum : 90
+Thread 25=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 95, col sum : 56
+Matrix 
+ Dimension 5 
+        21          0         16         21          6 
+         7         22         17         22          2 
+        13         18         23          3         23 
+        14         24         19         24          0 
+        15         10         25         20         25 
+Thread 26=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 79, col sum : 75
+Thread 27=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 100, col sum : 79
+Thread 28=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 110, col sum : 115
+Thread 29=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 115, col sum : 120
+Thread 30=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 105, col sum : 115
+Matrix 
+ Dimension 5 
+        26          0         26         21          6 
+         7         27         17         22         27 
+        13         18         28         28         23 
+        14         24         19         29         29 
+        15         10         30         20         30 
+Thread 31=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 115, col sum : 80
+Thread 32=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 115, col sum : 115
+Thread 33=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 125, col sum : 125
+Thread 34=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 135, col sum : 135
+Thread 35=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 130, col sum : 130
+Matrix 
+ Dimension 5 
+        31         31         26         21          6 
+         7         32         17         32         27 
+        13         18         33         28         33 
+        14         24         34         34         29 
+        35         10         30         20         35 
+Thread 36=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 135, col sum : 105
+Thread 37=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 130, col sum : 120
+Thread 38=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 140, col sum : 145
+Thread 39=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 165, col sum : 165
+Thread 40=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 165, col sum : 145
+Matrix 
+ Dimension 5 
+        36         31         26         36          6 
+         7         37         17         32         37 
+        13         18         38         38         33 
+        39         24         34         39         29 
+        35         40         30         20         40 
+Thread 41=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 155, col sum : 135
+Thread 42=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 170, col sum : 155
+Thread 43=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 150, col sum : 165
+Thread 44=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 185, col sum : 175
+Thread 45=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 185, col sum : 165
+Matrix 
+ Dimension 5 
+        41         31         41         36          6 
+        42         42         17         32         37 
+        13         18         43         43         33 
+        39         24         34         44         44 
+        35         40         45         20         45 
+Thread 46=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 200, col sum : 175
+Thread 47=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 205, col sum : 160
+Thread 48=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 160, col sum : 215
+Thread 49=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 195, col sum : 185
+Thread 50=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 195, col sum : 215
+Matrix 
+ Dimension 5 
+        46         31         41         36         46 
+        42         47         47         32         37 
+        13         18         48         48         33 
+        39         24         34         49         49 
+        35         40         50         20         50 
+Thread 51=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 225, col sum : 180
+Thread 52=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 230, col sum : 185
+Thread 53=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 170, col sum : 225
+Thread 54=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 220, col sum : 215
+Thread 55=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 205, col sum : 220
+Matrix 
+ Dimension 5 
+        51         51         41         36         46 
+        42         52         47         52         37 
+        13         18         53         53         33 
+        39         24         54         54         49 
+        35         40         55         20         55 
+Thread 56=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 235, col sum : 185
+Thread 57=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 240, col sum : 195
+Thread 58=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 200, col sum : 255
+Thread 59=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 245, col sum : 225
+Thread 60=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 250, col sum : 250
+Matrix 
+ Dimension 5 
+        56         56         41         36         46 
+        42         57         47         57         37 
+        13         18         58         53         58 
+        59         24         54         59         49 
+        35         40         55         60         60 
+Thread 61=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 260, col sum : 210
+Thread 62=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 250, col sum : 200
+Thread 63=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 250, col sum : 280
+Thread 64=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 255, col sum : 275
+Thread 65=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 280, col sum : 255
+Matrix 
+ Dimension 5 
+        61         56         61         36         46 
+        42         62         47         62         37 
+        13         63         63         53         58 
+        64         24         54         64         49 
+        35         65         55         60         65 
+Thread 66=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 270, col sum : 220
+Thread 67=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 285, col sum : 275
+Thread 68=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 270, col sum : 290
+Thread 69=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 305, col sum : 295
+Thread 70=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 320, col sum : 290
+Matrix 
+ Dimension 5 
+        66         56         66         36         46 
+        42         67         47         62         67 
+        13         63         68         68         58 
+        64         69         54         69         49 
+        70         65         55         60         70 
+Thread 71=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 300, col sum : 260
+Thread 72=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 295, col sum : 325
+Thread 73=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 285, col sum : 295
+Thread 74=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 320, col sum : 300
+Thread 75=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 340, col sum : 325
+Matrix 
+ Dimension 5 
+        71         56         66         36         71 
+        42         72         47         62         72 
+        13         73         73         68         58 
+        74         69         54         74         49 
+        70         65         55         75         75 
+Thread 76=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 310, col sum : 275
+Thread 77=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 305, col sum : 340
+Thread 78=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 310, col sum : 300
+Thread 79=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 335, col sum : 320
+Thread 80=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 360, col sum : 360
+Matrix 
+ Dimension 5 
+        76         56         66         36         76 
+        42         77         47         62         77 
+        13         73         78         68         78 
+        74         79         54         79         49 
+        70         80         55         75         80 
+Thread 81=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 360, col sum : 280
+Thread 82=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 345, col sum : 370
+Thread 83=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 325, col sum : 340
+Thread 84=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 375, col sum : 370
+Thread 85=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 380, col sum : 400
+Matrix 
+ Dimension 5 
+        81         56         66         81         76 
+        42         82         82         62         77 
+        13         83         83         68         78 
+        74         79         54         84         84 
+        85         80         55         75         85 
+Thread 86=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 395, col sum : 300
+Thread 87=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 360, col sum : 415
+Thread 88=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 350, col sum : 345
+Thread 89=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 395, col sum : 395
+Thread 90=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 395, col sum : 415
+Matrix 
+ Dimension 5 
+        86         86         66         81         76 
+        42         87         82         62         87 
+        13         83         88         88         78 
+        89         79         54         89         84 
+        85         90         55         75         90 
+Thread 91=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 405, col sum : 320
+Thread 92=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 415, col sum : 435
+Thread 93=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 435, col sum : 350
+Thread 94=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 415, col sum : 400
+Thread 95=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 420, col sum : 420
+Matrix 
+ Dimension 5 
+        91         91         66         81         76 
+        92         92         82         62         87 
+        93         83         93         88         78 
+        89         94         54         94         84 
+        85         90         55         95         95 
+Thread 96=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 425, col sum : 455
+Thread 97=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 430, col sum : 455
+Thread 98=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 450, col sum : 355
+Thread 99=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 465, col sum : 450
+Thread 100=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 435, col sum : 435
+Matrix 
+ Dimension 5 
+        96         91         66         96         76 
+        92         97         82         62         97 
+        93         83         98         98         78 
+        89         94         99         99         84 
+        85        100         55         95        100 
+Thread 1=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 2, col sum : 1
+Thread 2=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 4, col sum : 2
+Thread 3=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 6, col sum : 3
+Thread 4=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 8, col sum : 5
+Thread 5=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 10, col sum : 5
+Matrix 
+ Dimension 5 
+         1          0          0          1          0 
+         2          2          0          0          0 
+         0          3          3          0          0 
+         0          0          4          4          0 
+         0          5          0          0          5 
+Thread 6=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 13, col sum : 8
+Thread 7=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 16, col sum : 15
+Thread 8=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 19, col sum : 25
+Thread 9=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 22, col sum : 18
+Thread 10=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 20, col sum : 10
+Matrix 
+ Dimension 5 
+         6          0          6          1          0 
+         2          7          7          0          0 
+         0          3          8          8          0 
+         0          9          4          9          0 
+         0         10          0          0         10 
+Thread 11=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 23, col sum : 13
+Thread 12=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 33, col sum : 34
+Thread 13=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 37, col sum : 35
+Thread 14=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 41, col sum : 23
+Thread 15=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 40, col sum : 27
+Matrix 
+ Dimension 5 
+        11          0         11          1          0 
+         2         12          7          0         12 
+        13          3         13          8          0 
+        14          9          4         14          0 
+        15         10          0          0         15 
+Thread 16=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 44, col sum : 60
+Thread 17=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 43, col sum : 55
+Thread 18=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 47, col sum : 40
+Thread 19=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 65, col sum : 28
+Thread 20=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 55, col sum : 56
+Matrix 
+ Dimension 5 
+        16         16         11          1          0 
+         2         17          7          0         17 
+        18          3         18          8          0 
+        14          9          4         19         19 
+        15         20          0          0         20 
+Thread 21=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 70, col sum : 70
+Thread 22=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 68, col sum : 70
+Thread 23=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 57, col sum : 45
+Thread 24=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 90, col sum : 33
+Thread 25=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 65, col sum : 82
+Matrix 
+ Dimension 5 
+        21         16         11          1         21 
+        22         22          7          0         17 
+        23          3         23          8          0 
+        14          9         24         24         19 
+        15         25          0          0         25 
+Thread 26=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 85, col sum : 100
+Thread 27=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 78, col sum : 90
+Thread 28=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 90, col sum : 70
+Thread 29=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 110, col sum : 38
+Thread 30=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 85, col sum : 115
+Matrix 
+ Dimension 5 
+        26         26         11          1         21 
+        27         27          7          0         17 
+        23          3         28          8         28 
+        29          9         24         29         19 
+        30         25          0          0         30 
+Thread 31=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 120, col sum : 140
+Thread 32=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 108, col sum : 95
+Thread 33=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 125, col sum : 100
+Thread 34=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 125, col sum : 73
+Thread 35=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 95, col sum : 120
+Matrix 
+ Dimension 5 
+        31         26         11         31         21 
+        27         32         32          0         17 
+        23         33         33          8         28 
+        29          9         34         34         19 
+        35         25          0          0         35 
+Thread 36=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 135, col sum : 150
+Thread 37=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 133, col sum : 140
+Thread 38=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 135, col sum : 115
+Thread 39=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 160, col sum : 78
+Thread 40=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 140, col sum : 145
+Matrix 
+ Dimension 5 
+        36         36         11         31         21 
+        27         37         32          0         37 
+        23         38         38          8         28 
+        29         39         34         39         19 
+        35         25         40          0         40 
+Thread 41=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 145, col sum : 155
+Thread 42=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 148, col sum : 185
+Thread 43=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 155, col sum : 170
+Thread 44=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 175, col sum : 83
+Thread 45=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 190, col sum : 165
+Matrix 
+ Dimension 5 
+        41         41         11         31         21 
+        27         42         42          0         37 
+        23         38         43          8         43 
+        29         39         44         44         19 
+        35         25         40         45         45 
+Thread 46=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 165, col sum : 160
+Thread 47=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 158, col sum : 190
+Thread 48=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 185, col sum : 190
+Thread 49=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 190, col sum : 148
+Thread 50=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 205, col sum : 170
+Matrix 
+ Dimension 5 
+        46         41         11         46         21 
+        27         47         47          0         37 
+        48         38         48          8         43 
+        29         49         44         49         19 
+        35         25         50         45         50 
+Thread 51=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 210, col sum : 190
+Thread 52=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 178, col sum : 205
+Thread 53=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 195, col sum : 245
+Thread 54=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 230, col sum : 153
+Thread 55=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 240, col sum : 225
+Matrix 
+ Dimension 5 
+        51         41         51         46         21 
+        27         52         47          0         52 
+        53         38         53          8         43 
+        29         49         44         54         54 
+        35         55         50         45         55 
+Thread 56=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 230, col sum : 200
+Thread 57=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 240, col sum : 255
+Thread 58=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 205, col sum : 250
+Thread 59=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 250, col sum : 215
+Thread 60=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 255, col sum : 230
+Matrix 
+ Dimension 5 
+        56         56         51         46         21 
+        27         57         47         57         52 
+        58         38         58          8         43 
+        29         49         59         59         54 
+        35         55         60         45         60 
+Thread 61=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 250, col sum : 210
+Thread 62=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 255, col sum : 260
+Thread 63=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 235, col sum : 280
+Thread 64=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 260, col sum : 235
+Thread 65=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 270, col sum : 245
+Matrix 
+ Dimension 5 
+        61         56         51         61         21 
+        27         62         47         57         62 
+        58         63         63          8         43 
+        29         49         64         64         54 
+        35         65         60         45         65 
+Thread 66=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 300, col sum : 215
+Thread 67=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 265, col sum : 300
+Thread 68=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 300, col sum : 290
+Thread 69=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 280, col sum : 300
+Thread 70=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 280, col sum : 315
+Matrix 
+ Dimension 5 
+        66         56         51         61         66 
+        27         67         47         57         67 
+        58         63         68         68         43 
+        29         49         64         69         69 
+        35         70         60         45         70 
+Thread 71=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 325, col sum : 220
+Thread 72=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 315, col sum : 310
+Thread 73=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 335, col sum : 315
+Thread 74=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 310, col sum : 305
+Thread 75=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 325, col sum : 350
+Matrix 
+ Dimension 5 
+        71         56         71         61         66 
+        72         72         47         57         67 
+        58         63         73         68         73 
+        29         74         64         74         69 
+        75         70         60         45         75 
+Thread 76=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 350, col sum : 310
+Thread 77=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 330, col sum : 360
+Thread 78=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 360, col sum : 320
+Thread 79=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 325, col sum : 310
+Thread 80=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 340, col sum : 375
+Matrix 
+ Dimension 5 
+        76         76         71         61         66 
+        72         77         47         57         77 
+        78         63         78         68         73 
+        29         74         64         79         79 
+        75         80         60         45         80 
+Thread 81=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 360, col sum : 335
+Thread 82=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 360, col sum : 380
+Thread 83=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 370, col sum : 325
+Thread 84=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 385, col sum : 340
+Thread 85=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 385, col sum : 380
+Matrix 
+ Dimension 5 
+        81         81         71         61         66 
+        72         82         47         82         77 
+        83         63         83         68         73 
+        84         74         64         84         79 
+        75         80         60         85         85 
+Thread 86=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 380, col sum : 400
+Thread 87=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 375, col sum : 385
+Thread 88=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 395, col sum : 345
+Thread 89=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 415, col sum : 405
+Thread 90=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 400, col sum : 395
+Matrix 
+ Dimension 5 
+        86         81         86         61         66 
+        72         87         47         82         87 
+        83         63         88         88         73 
+        84         74         89         89         79 
+        75         90         60         85         90 
+Thread 91=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 410, col sum : 405
+Thread 92=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 390, col sum : 400
+Thread 93=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 420, col sum : 375
+Thread 94=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 435, col sum : 420
+Thread 95=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 415, col sum : 460
+Matrix 
+ Dimension 5 
+        91         81         86         61         91 
+        72         92         47         92         87 
+        83         63         93         88         93 
+        84         74         89         94         94 
+        75         90         60         95         95 
+Thread 96=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 430, col sum : 410
+Thread 97=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 400, col sum : 420
+Thread 98=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 460, col sum : 380
+Thread 99=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 455, col sum : 440
+Thread 100=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 460, col sum : 465
+Matrix 
+ Dimension 5 
+        96         96         86         61         91 
+        72         97         47         97         87 
+        83         98         98         88         93 
+        99         74         89         99         94 
+        75         90        100         95        100 
+Thread 1=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 2, col sum : 1
+Thread 2=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 4, col sum : 2
+Thread 3=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 6, col sum : 3
+Thread 4=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 8, col sum : 4
+Thread 5=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 10, col sum : 10
+Matrix 
+ Dimension 5 
+         1          0          0          0          1 
+         2          2          0          0          0 
+         3          0          3          0          0 
+         0          0          0          4          4 
+         0          5          0          0          5 
+Thread 6=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 13, col sum : 11
+Thread 7=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 16, col sum : 12
+Thread 8=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 19, col sum : 14
+Thread 9=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 22, col sum : 16
+Thread 10=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 25, col sum : 15
+Matrix 
+ Dimension 5 
+         6          0          6          0          1 
+         2          7          0          7          0 
+         3          8          8          0          0 
+         0          0          9          9          4 
+        10          5          0          0         10 
+Thread 11=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 23, col sum : 26
+Thread 12=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 31, col sum : 25
+Thread 13=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 29, col sum : 33
+Thread 14=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 41, col sum : 21
+Thread 15=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 35, col sum : 20
+Matrix 
+ Dimension 5 
+        11          0         11          0          1 
+        12         12          0          7          0 
+         3         13         13          0          0 
+        14          0          9         14          4 
+        15          5          0          0         15 
+Thread 16=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 33, col sum : 60
+Thread 17=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 46, col sum : 35
+Thread 18=The diagonal element has been changed [2,2] and free element: [2,3]. Row sum : 52, col sum : 43
+Thread 19=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 51, col sum : 54
+Thread 20=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 45, col sum : 25
+Matrix 
+ Dimension 5 
+        16          0         16          0          1 
+        12         17          0         17          0 
+         3         13         18         18          0 
+        19          0          9         19          4 
+        20          5          0          0         20 
+Thread 21=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 59, col sum : 75
+Thread 22=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 61, col sum : 40
+Thread 23=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 77, col sum : 48
+Thread 24=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 61, col sum : 80
+Thread 25=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 75, col sum : 30
+Matrix 
+ Dimension 5 
+        21          0         16         21          1 
+        22         22          0         17          0 
+        23         13         23         18          0 
+        24          0          9         24          4 
+        20          5          0         25         25 
+Thread 26=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 69, col sum : 115
+Thread 27=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 93, col sum : 45
+Thread 28=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 110, col sum : 80
+Thread 29=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 91, col sum : 115
+Thread 30=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 90, col sum : 88
+Matrix 
+ Dimension 5 
+        26          0         16         26          1 
+        22         27         27         17          0 
+        23         13         28         18         28 
+        24          0          9         29         29 
+        30          5          0         25         30 
+Thread 31=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 79, col sum : 130
+Thread 32=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 103, col sum : 50
+Thread 33=The diagonal element has been changed [2,2] and free element: [2,4]. Row sum : 120, col sum : 90
+Thread 34=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 106, col sum : 125
+Thread 35=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 130, col sum : 98
+Matrix 
+ Dimension 5 
+        31          0         16         31          1 
+        22         32         32         17          0 
+        23         13         33         18         33 
+        34          0          9         34         29 
+        30          5         35         25         35 
+Thread 36=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 89, col sum : 145
+Thread 37=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 123, col sum : 55
+Thread 38=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 150, col sum : 130
+Thread 39=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 116, col sum : 135
+Thread 40=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 140, col sum : 103
+Matrix 
+ Dimension 5 
+        36          0         16         36          1 
+        37         37         32         17          0 
+        23         38         38         18         33 
+        39          0          9         39         29 
+        30          5         40         25         40 
+Thread 41=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 134, col sum : 170
+Thread 42=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 153, col sum : 85
+Thread 43=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 175, col sum : 140
+Thread 44=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 156, col sum : 165
+Thread 45=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 160, col sum : 148
+Matrix 
+ Dimension 5 
+        41          0         16         36         41 
+        37         42         32         42          0 
+        43         38         43         18         33 
+        39          0         44         44         29 
+        45          5         40         25         45 
+Thread 46=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 149, col sum : 210
+Thread 47=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 173, col sum : 90
+Thread 48=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 190, col sum : 195
+Thread 49=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 166, col sum : 180
+Thread 50=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 190, col sum : 153
+Matrix 
+ Dimension 5 
+        46          0         16         46         41 
+        37         47         47         42          0 
+        43         48         48         18         33 
+        39          0         49         49         29 
+        45          5         40         50         50 
+Thread 51=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 205, col sum : 215
+Thread 52=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 230, col sum : 156
+Thread 53=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 200, col sum : 205
+Thread 54=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 225, col sum : 210
+Thread 55=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 205, col sum : 210
+Matrix 
+ Dimension 5 
+        51         51         16         46         41 
+        37         52         47         42         52 
+        43         53         53         18         33 
+        39         54         49         54         29 
+        55          5         40         50         55 
+Thread 56=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 215, col sum : 230
+Thread 57=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 255, col sum : 225
+Thread 58=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 220, col sum : 210
+Thread 59=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 250, col sum : 215
+Thread 60=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 215, col sum : 215
+Matrix 
+ Dimension 5 
+        56         56         16         46         41 
+        57         57         47         42         52 
+        58         53         58         18         33 
+        59         54         49         59         29 
+        60          5         40         50         60 
+Thread 61=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 240, col sum : 295
+Thread 62=The diagonal element has been changed [1,1] and free element: [1,2]. Row sum : 275, col sum : 230
+Thread 63=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 235, col sum : 230
+Thread 64=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 265, col sum : 220
+Thread 65=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 225, col sum : 240
+Matrix 
+ Dimension 5 
+        61         56         16         46         61 
+        57         62         62         42         52 
+        58         63         63         18         33 
+        59         64         49         64         29 
+        65          5         40         50         65 
+Thread 66=The diagonal element has been changed [0,0] and free element: [0,1]. Row sum : 255, col sum : 305
+Thread 67=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 305, col sum : 265
+Thread 68=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 250, col sum : 235
+Thread 69=The diagonal element has been changed [3,3] and free element: [3,0]. Row sum : 280, col sum : 250
+Thread 70=The diagonal element has been changed [4,4] and free element: [4,0]. Row sum : 235, col sum : 245
+Matrix 
+ Dimension 5 
+        66         66         16         46         61 
+        57         67         62         67         52 
+        68         63         68         18         33 
+        69         64         49         69         29 
+        70          5         40         50         70 
+Thread 71=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 270, col sum : 335
+Thread 72=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 330, col sum : 270
+Thread 73=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 265, col sum : 240
+Thread 74=The diagonal element has been changed [3,3] and free element: [3,2]. Row sum : 310, col sum : 255
+Thread 75=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 310, col sum : 280
+Matrix 
+ Dimension 5 
+        71         66         16         46         71 
+        57         72         62         67         72 
+        68         73         73         18         33 
+        69         64         74         74         29 
+        70         75         40         50         75 
+Thread 76=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 335, col sum : 340
+Thread 77=The diagonal element has been changed [1,1] and free element: [1,0]. Row sum : 355, col sum : 355
+Thread 78=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 280, col sum : 330
+Thread 79=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 330, col sum : 260
+Thread 80=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 355, col sum : 285
+Matrix 
+ Dimension 5 
+        76         66         76         46         71 
+        77         77         62         67         72 
+        78         73         78         18         33 
+        69         79         74         79         29 
+        70         75         80         50         80 
+Thread 81=The diagonal element has been changed [0,0] and free element: [0,2]. Row sum : 345, col sum : 375
+Thread 82=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 375, col sum : 375
+Thread 83=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 290, col sum : 380
+Thread 84=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 390, col sum : 280
+Thread 85=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 395, col sum : 345
+Matrix 
+ Dimension 5 
+        81         66         81         46         71 
+        77         82         62         82         72 
+        83         73         83         18         33 
+        69         79         74         84         84 
+        70         75         80         85         85 
+Thread 86=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 390, col sum : 385
+Thread 87=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 385, col sum : 380
+Thread 88=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 300, col sum : 385
+Thread 89=The diagonal element has been changed [3,3] and free element: [3,4]. Row sum : 400, col sum : 365
+Thread 90=The diagonal element has been changed [4,4] and free element: [4,3]. Row sum : 405, col sum : 355
+Matrix 
+ Dimension 5 
+        86         66         81         86         71 
+        77         87         62         87         72 
+        88         73         88         18         33 
+        69         79         74         89         89 
+        70         75         80         90         90 
+Thread 91=The diagonal element has been changed [0,0] and free element: [0,4]. Row sum : 415, col sum : 395
+Thread 92=The diagonal element has been changed [1,1] and free element: [1,4]. Row sum : 410, col sum : 385
+Thread 93=The diagonal element has been changed [2,2] and free element: [2,1]. Row sum : 325, col sum : 390
+Thread 94=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 420, col sum : 375
+Thread 95=The diagonal element has been changed [4,4] and free element: [4,2]. Row sum : 425, col sum : 400
+Matrix 
+ Dimension 5 
+        91         66         81         86         91 
+        77         92         62         87         92 
+        88         93         93         18         33 
+        69         94         74         94         89 
+        70         75         95         90         95 
+Thread 96=The diagonal element has been changed [0,0] and free element: [0,3]. Row sum : 430, col sum : 400
+Thread 97=The diagonal element has been changed [1,1] and free element: [1,3]. Row sum : 425, col sum : 425
+Thread 98=The diagonal element has been changed [2,2] and free element: [2,0]. Row sum : 340, col sum : 410
+Thread 99=The diagonal element has been changed [3,3] and free element: [3,1]. Row sum : 430, col sum : 400
+Thread 100=The diagonal element has been changed [4,4] and free element: [4,1]. Row sum : 455, col sum : 405
+Matrix 
+ Dimension 5 
+        96         66         81         96         91 
+        77         97         62         97         92 
+        98         93         98         18         33 
+        69         99         74         99         89 
+        70        100         95         90        100 

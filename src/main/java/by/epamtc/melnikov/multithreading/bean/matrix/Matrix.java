@@ -1,8 +1,12 @@
 package by.epamtc.melnikov.multithreading.bean.matrix;
 
+import java.io.Serializable;
+import java.util.Arrays;
 import java.util.ResourceBundle;
 
-public class Matrix {
+public class Matrix implements Serializable {
+
+	private static final long serialVersionUID = -7977477818607348092L;
 
 	private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle.getBundle("matrix");
     
@@ -12,7 +16,7 @@ public class Matrix {
     
 	private Integer dimension;
 	private Integer threadsCount;
-	private volatile int[][] jaggedArray;
+	private int[][] jaggedArray;
 	    
 	private Matrix() {
 		dimension = Integer.parseInt(DIMENSION);
@@ -68,6 +72,40 @@ public class Matrix {
 				
 		return sb.toString();
 		
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((dimension == null) ? 0 : dimension.hashCode());
+		result = prime * result + Arrays.deepHashCode(jaggedArray);
+		result = prime * result + ((threadsCount == null) ? 0 : threadsCount.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Matrix other = (Matrix) obj;
+		if (dimension == null) {
+			if (other.dimension != null)
+				return false;
+		} else if (!dimension.equals(other.dimension))
+			return false;
+		if (!Arrays.deepEquals(jaggedArray, other.jaggedArray))
+			return false;
+		if (threadsCount == null) {
+			if (other.threadsCount != null)
+				return false;
+		} else if (!threadsCount.equals(other.threadsCount))
+			return false;
+		return true;
 	}
 	
 }

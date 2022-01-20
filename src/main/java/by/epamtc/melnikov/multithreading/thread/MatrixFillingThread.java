@@ -3,7 +3,9 @@ package by.epamtc.melnikov.multithreading.thread;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.locks.ReentrantLock;
 
 import org.apache.logging.log4j.LogManager;
@@ -85,16 +87,19 @@ public class MatrixFillingThread implements Runnable {
 	//TODO Randomize finding a free element, instead of selecting the leftmost or topmost element
 	public Map<String, Integer> findFreeColOrRowElement(int rowNumber, int columnNumber, int[][] jaggedArray) {
 		Map<String, Integer> indexes = new HashMap<>();
+		
+		int[] randomIndexes = calculateRandomIndexes(jaggedArray.length);
+		
 		for (int i = 0; i < jaggedArray.length; i++) {
-			if (!matrixState.isChanged(rowNumber, i)) {
+			if (!matrixState.isChanged(rowNumber, randomIndexes[i])) {
 				indexes.put("row", rowNumber);
-				indexes.put("column", i);
+				indexes.put("column", randomIndexes[i]);
 				return indexes;
 			}
 		}
 		for (int i = 0; i < jaggedArray.length; i++) {
-			if (!matrixState.isChanged(i, columnNumber)) {
-				indexes.put("row", i);
+			if (!matrixState.isChanged(randomIndexes[i], columnNumber)) {
+				indexes.put("row", randomIndexes[i]);
 				indexes.put("column", columnNumber);
 				return indexes;
 			}
@@ -109,5 +114,30 @@ public class MatrixFillingThread implements Runnable {
 	public int calculateColSum(int[][] jaggedArray, int colIndex) {
 		return Arrays.stream(jaggedArray).map((l) -> l[colIndex]).reduce(Integer::sum).get();
 	}
-
+	
+	private int[] calculateRandomIndexes(int n) {
+		
+		int[] indexes = new int[n];
+		
+		for (int i = 0; i < n; i++) {
+			indexes[i] = i;
+		}
+		
+		shuffleArray(indexes);
+		
+		return indexes;
+		
+	}
+	
+	private void shuffleArray(int[] array) {
+	    Random rnd = ThreadLocalRandom.current();
+	    for (int i = array.length - 1; i > 0; i--)
+	    {
+	      int index = rnd.nextInt(i + 1);
+	      int a = array[index];
+	      array[index] = array[i];
+	      array[i] = a;
+	    }
+	}
+	
 }
