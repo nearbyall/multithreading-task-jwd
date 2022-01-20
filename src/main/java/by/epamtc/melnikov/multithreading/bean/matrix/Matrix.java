@@ -16,15 +16,15 @@ public class Matrix implements Serializable {
     
 	private Integer dimension;
 	private Integer threadsCount;
-	private int[][] jaggedArray;
+	private int[][] values;
 	    
 	private Matrix() {
 		dimension = Integer.parseInt(DIMENSION);
 		threadsCount = Integer.parseInt(THREADS_COUNT);
-		jaggedArray = new int[dimension][dimension];
+		values = new int[dimension][dimension];
 		for (int i = 0; i < dimension; i++)
 			for (int j = 0; j < dimension; j++)
-				jaggedArray[i][j] = Integer.parseInt(FILL_VALUE);
+				values[i][j] = Integer.parseInt(FILL_VALUE);
 	}
     
 	public static class MatrixHolder {
@@ -35,16 +35,12 @@ public class Matrix implements Serializable {
 		return MatrixHolder.HOLDER_INSTANCE;
 	}
 
-	public void editElement(int rowNumber, int colNumber, int value) {
-		jaggedArray[rowNumber][colNumber] = value;
-	}
-    
 	public Integer getDimension() {
 		return dimension;
 	}
 
-	public int[][] getJaggedArray() {
-		return jaggedArray;
+	public int[][] getValues() {
+		return values;
 	}
 
 	public Integer getThreadsCount() {
@@ -65,7 +61,7 @@ public class Matrix implements Serializable {
 		
 		for (int i = 0; i < dimension; i++) {
 			for(int j = 0; j < dimension; j++) {
-				sb.append(String.format("%10d ", jaggedArray[i][j]));
+				sb.append(String.format("%10d ", values[i][j]));
 			}
 			sb.append("\n");
 		}
@@ -79,7 +75,7 @@ public class Matrix implements Serializable {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((dimension == null) ? 0 : dimension.hashCode());
-		result = prime * result + Arrays.deepHashCode(jaggedArray);
+		result = prime * result + Arrays.deepHashCode(values);
 		result = prime * result + ((threadsCount == null) ? 0 : threadsCount.hashCode());
 		return result;
 	}
@@ -98,7 +94,7 @@ public class Matrix implements Serializable {
 				return false;
 		} else if (!dimension.equals(other.dimension))
 			return false;
-		if (!Arrays.deepEquals(jaggedArray, other.jaggedArray))
+		if (!Arrays.deepEquals(values, other.values))
 			return false;
 		if (threadsCount == null) {
 			if (other.threadsCount != null)

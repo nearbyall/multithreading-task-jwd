@@ -3,20 +3,20 @@ package by.epamtc.melnikov.multithreading.thread;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TempResultsKeeper {
+public class TempInfo {
 
 	private Map<Integer, String> tempResults = new HashMap<>();
 
-	private TempResultsKeeper() {
+	private TempInfo() {
 
 	}
 
 	private static class Holder {
-		private final static TempResultsKeeper instance = new TempResultsKeeper();
+		private final static TempInfo instance = new TempInfo();
 	}
 
-	public static TempResultsKeeper getInstance() {
-		return TempResultsKeeper.Holder.instance;
+	public static TempInfo getInstance() {
+		return TempInfo.Holder.instance;
 	}
 
 	public Map<Integer, String> getTempResults() {

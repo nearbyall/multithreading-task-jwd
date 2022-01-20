@@ -21,12 +21,13 @@ public class Main {
 		ReentrantLock lock = new ReentrantLock();
 		Matrix matrix = Matrix.getInstance();
 		MatrixState matrixState = new MatrixState(matrix.getDimension());
-		matrixState.setDefaultState();
+		matrixState.resetStates();
 		ThreadManager threadManager = new ThreadManager(lock, writer, matrixState);
+		
 		try {
 			threadManager.runThreads(matrix.getThreadsCount(), matrix.getDimension());
 		} catch (InterruptedException | IOException e) {
-			logger.error("Threads error");
+			logger.error("Error", e);
 			System.exit(0);
 		}
 		

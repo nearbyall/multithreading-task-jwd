@@ -6,13 +6,14 @@ import java.util.HashMap;
 public class MatrixState {
 	
 	private int dimension;
-	private Map<String, Boolean> states = new HashMap<>();
+	private Map<String, Boolean> states;
 
 	public MatrixState(int n) {
 		this.dimension = n;
+		this.states = new HashMap<>();
 	}
 
-	public void setDefaultState() {
+	public void resetStates() {
 		for (int i = 0; i < dimension; i++) {
 			for (int j = 0; j < dimension; j++) {
 				String key = createKey(i, j);
@@ -21,18 +22,18 @@ public class MatrixState {
 		}
 	}
 
-	public boolean isChanged(int rowElement, int colElement) {
-		String key = createKey(rowElement, colElement);
+	public boolean isChanged(int rowIndex, int colIndex) {
+		String key = createKey(rowIndex, colIndex);
 		return states.get(key);
 	}
 
-	public void changeElementState(int rowElement, int colElement) {
-		String key = createKey(rowElement, colElement);
+	public void changeState(int rowIndex, int colIndex) {
+		String key = createKey(rowIndex, colIndex);
 		states.replace(key, true);
 	}
 
-	public String createKey(int key1, int key2) {
-		return key1 + " " + key2;
+	public String createKey(int firstIndex, int secondIndex) {
+		return firstIndex + " " + secondIndex;
 	}
     
 }
